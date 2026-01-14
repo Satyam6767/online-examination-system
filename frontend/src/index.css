@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
+  .nav-item{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .navbtnmy{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .banner-heading{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    width: 600px;
+  }
+
+  .navbar{
+    padding: 0px;
+  }
+  
+  .banner-heading h1{
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .banner-heading button{
+    padding-left: 35px;
+    padding-right: 35px;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .text-light i{
+    font-size: 29px;
+  }
+  
+  
+  .header{
+    background-color: #29416f;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .header li{
+    list-style-type: none;
+    color: white;
+  }
+  .left i{
+    color: green;
+  }
+  .left{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+  
+  }
+  
+  .header ul i{
+    margin-right: 8px;
+    
+  }
+  
+  .right{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .right i{
+    font-size: 20px;
+  }
+
+  .carousel img{
+    height: 83vh;
+  }
+
+  .carousel-caption{
+    bottom: 11.25rem;
+  }
+
+  .carousel-caption h1{
+    font-size: 78px;
+    font-family: "Museo W01 900";
+    color: black;
+    text-shadow: 0px 0px 8px white;
+  }
+
+  .carousel-caption h4{
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
+  }
+
+  .carousel-caption button{
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+
+  .aboutus123 h1{
+    font-family: "Leadville W00 Regular";
+  }
+
+
+  .box1234{
+    border: 1px solid red;
+    width: 340px;
+  }
+
+
+
+  .cardinrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    justify-content: center;
+
+  }
+
+  .box1234{
+    padding: 37px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(31, 57, 113);
+  }
+
+
+  .box1234 img{
+    width: 90px;
+    margin-bottom: 16px;
+  }
+
+  .box1234 h3{
+    color: rgb(255, 174, 39);;
+  }
+
+  .box1234 p{
+    color: white;
+  }
+
+
+
+
+
+
+  .breadcrumb-container {
+    background: #f8f9fa;
+    padding: 110px 20px;
+    border-radius: 5px;
+    background-image: url(https://img.freepik.com/free-photo/group-diverse-business-people_53876-20967.jpg?t=st=1741000011~exp=1741003611~hmac=a2fe8bcc9ec3cf811ec128f7dbdde5629ae3a28798e5beae60a6814fbbaeefd3&w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  .breadcrumb {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breadcrumb li {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+  }
+  
+  .breadcrumb li:not(:last-child)::after {
+    content: "›";
+    margin: 0 8px;
+    color: #6c757d;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .breadcrumb a:hover {
+    color: #0056b3;
+  }
+  
+  .breadcrumb .active {
+    color: #6c757d;
+    font-weight: 600;
+  }
+  
+
+  .review-card{
+    box-shadow: 0px 0px 13px rgb(0, 0, 0);
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(197, 220, 229);
+  }
+
+  .newani{
+    
+    display: flex;
+    animation-name: hii;
+    animation-duration: 12s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+
+  .hell{
+    overflow: hidden;
+    
+  }
+
+  .testimonialarea{
+    background-image: url("https://www.midbrainsacademy.in/img/banner/7.png");
+    padding-bottom: 80px;
+  }
+
+
+  @keyframes hii {
+    0%{
+      left: 0px
+    }
+
+    100%{
+      left: -1000px;
+    }
+  }
+
+  .main-top{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-top img{
+    width: 85px;
+  }
+.footerli{
+  list-style-type: none;
+}
+  .footerli{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  /* .col-md-4{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .contactLeft h2{
+    margin-bottom: 60px;
+  }
+
+  .contactLeft h2{
+    margin-bottom: 60px;
+  }
+
+  .contactRight{
+    padding: 90px 60px;
+  }
+ 
+
+  .contactform{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 105px;
+  }
+
+  .contactform input{
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
+
+  .loginform{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 84vh;
+    background-image: url("https://www.midbrainsacademy.in/img/why/p8.png");
+
+  }
+
+  .innerloginform{
+    /* border: 2px solid red; */
+    width: 400px;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: skyblue;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 25px red;
+  }
+
+  .innerloginform h2{
+    color: #29416f;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  .finalform{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .finalform input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    width: 250px;
+    padding: 5px 19px;
+  }
+
+  .outerregister{
+    display: flex;
+    height: 84vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.midbrainsacademy.in/img/why/p8.png")
+  }
+
+
+  .innerregister{
+    width: 400px;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: skyblue;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 25px red;
+  }
+
+
+  .innerregister h2{
+    color: #29416f;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }

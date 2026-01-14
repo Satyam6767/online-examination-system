@@ -1,0 +1,72 @@
+/* Container Styling */
+.dashboard-container {
+    /* max-width: 800px; */
+    /* margin: 50px auto; */
+    /* padding: 20px; */
+    text-align: center;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Welcome Header */
+  .dashboard-container h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-container h3 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Container */
+  .dashboard-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  .dashboard-buttons button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    width: 250px;
+  }
+  
+  .dashboard-buttons button:hover {
+    background: #0056b3;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background: #dc3545;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background: #a71d2a;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .dashboard-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .dashboard-buttons button {
+      width: 100%;
+    }
+  }
+  
