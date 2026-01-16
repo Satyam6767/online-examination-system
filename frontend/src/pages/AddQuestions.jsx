@@ -24,7 +24,7 @@ const AddQuestions = () => {
     try {
       for (const question of questions) {
         const response = await axios.post(
-          "http://localhost:5000/api/questions",
+          "https://online-examination-system-ajp3.onrender.com/api/questions",
           { examId, text: question.text, options: question.options, correctAnswer: question.correctAnswer },
           { headers: { Authorization: `Bearer ${user.token}` } }
         );

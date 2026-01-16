@@ -28,7 +28,7 @@ const CreateExam = () => {
 
     try {
       const examResponse = await axios.post(
-        "http://localhost:5000/api/exams",
+        "https://online-examination-system-ajp3.onrender.com/api/exams",
         { title, subject, duration, examDateTime },
         { headers: { Authorization: `Bearer ${user.token}` } }
       );
@@ -38,7 +38,7 @@ const CreateExam = () => {
 
       for (const question of questions) {
         await axios.post(
-          "http://localhost:5000/api/questions",
+          "https://online-examination-system-ajp3.onrender.com/api/questions",
           { examId, ...question },
           { headers: { Authorization: `Bearer ${user.token}` } }
         );

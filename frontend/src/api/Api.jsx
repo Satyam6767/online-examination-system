@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://online-examination-system-ajp3.onrender.com/api";
 
 export const loginUser = async (email, password) => {
   const res = await axios.post(`${API_URL}/auth/login`, { email, password });
